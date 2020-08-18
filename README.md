@@ -12,5 +12,7 @@ e simples possível.
 ## Créditos
 - Favicon: por ceder gratuítamente o ícon do site.
 - MasashiWakui: por ceder gratuítamente via pixabay a foto de background do site.
+## Screenshots
+![GitHub Logo](app/screenshots/buscaCep.png)
 
- 
+![GitHub Logo](app/screenshots/buscaCep02.png)
