@@ -8,26 +8,25 @@ body{
 }
 
 .main{
-
-    background-image: url("../img/sky.jpg");
+    background-image: url("../img/japan.jpg");
     height: 100vh;
     display: flex;
     text-align: center;
 }
 
-.main h1{
-    font-size: 5em;
-}
-
-.main h2{
-    margin-bottom: 4%;
-}
-
 .main-form{
     border-radius: 30px;
-    background-color: rgb(67, 121, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 5%;
     margin: auto;
+}
+
+.main-form h1{
+    font-size: 4em;
+}
+
+.main-form h2{
+    margin-bottom: 4%;
 }
 
 .search-form{
@@ -38,4 +37,8 @@ body{
 .icon{
     color: white !important;
     font-size: 5em;
+}
+
+.display-items h1{
+    font-size: 2em;
 }

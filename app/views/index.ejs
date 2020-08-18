@@ -10,22 +10,36 @@
 <body>
 
     <div class="main">
-
-
         <div class="main-form">
+            <div class="items-search">
+                <i class="icon icofont-smirk"></i>
+                <h1>buscador de cep</h1>
+                <h2>Simples, preciso e confiável</h2>
+                <form class="form-inline search-form">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Digite o CEP" aria-label="Search" id="input-cep">
+                    <button type="submit" class="btn btn-light" id="btn-search">Buscar</button>
+                </form>
+            </div>
 
-            <i class="icon icofont-smirk"></i>
-            <h1>buscador de cep</h1>
-            <h2>Simples, preciso e confiável</h2>
-            <form class="form-inline search-form">
-                <input class="form-control mr-sm-2" type="search" placeholder="Digite o CEP" aria-label="Search">
-                <button type="submit" class="btn btn-light">Buscar</button>
+            <div class="display-items" style="display: none">
+                <i class="icon icofont-smirk"></i>
+                <h1 id="street"></h1>
+                <h1 id="neighborhood"></h1>
+                <h1 id="city"></h1>
+                <h1 id="state"></h1>
+                <button type="button" class="btn btn-light btn-back">Voltar</button>
+            </div>
 
-            </form>
+            <div id="error" style="display: none">
+                <h1 id="error-item"></h1>
+                <button type="button" class="btn btn-light btn-back">Voltar</button>
+            </div>
+
         </div>
-
     </div>
 
+    <script src="src/controller/SiteController.js"></script>
+    <script src="src/index.js"></script>
     <script src="jquery-3.5.1.slim.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
